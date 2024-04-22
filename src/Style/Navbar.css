@@ -1,0 +1,31 @@
+.nav_container {
+    background-color:"balck" !important;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.cart-icon {
+    display: flex;
+    text-align: end;
+    margin-right: 2rem;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+    height:30
+  }
+@media screen and (max-width: 700px) {
+    .nav_container {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .nav_container .left_navbar_icone {
+        float: left;
+    }
+
+    /* div.content {margin-left: 0;} */
+}
